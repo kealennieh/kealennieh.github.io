@@ -3,7 +3,6 @@ title = "Shanlan Blog"
 languageCode = "en-us"
 theme = "cleanwhite"
 
-
 [params]
   header_image = "img/home-bg-jeep.jpg"
   SEOTitle = "山岚的博客 | Shanlan Blog"
@@ -11,6 +10,15 @@ theme = "cleanwhite"
   keyword = "山岚 kealen"
   slogan = "一半在土里安详，一半在风里飞扬"
 
+  # Sidebar settings
+  sidebar_about_description = "A pure coder"
+  sidebar_avatar = "img/avatar.jpeg"
+
+  about_me = true
+
+  [[params.addtional_menus]]
+  title =  "ARCHIVE"
+  href =  "/archive/"
   [[params.addtional_menus]]
   title =  "ABOUT"
   href =  "/about/"
