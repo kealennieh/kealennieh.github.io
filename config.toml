@@ -1,0 +1,16 @@
+baseURL = "http://example.org/"
+title = "Shanlan Blog"
+languageCode = "en-us"
+theme = "cleanwhite"
+
+
+[params]
+  header_image = "img/home-bg-jeep.jpg"
+  SEOTitle = "山岚的博客 | Shanlan Blog"
+  description = "山岚，程序员，生活体验家 | 这里是 山岚 的博客。"
+  keyword = "山岚 kealen"
+  slogan = "一半在土里安详，一半在风里飞扬"
+
+  [[params.addtional_menus]]
+  title =  "ABOUT"
+  href =  "/about/"
